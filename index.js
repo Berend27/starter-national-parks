@@ -115,11 +115,11 @@
 /* Event Listeners */
 
 // Listening for the page to have loaded with the DOMContentLoaded event handler
-// console.log("Before!");
-// window.addEventListener("DOMContentLoaded", (event) => {
-//     console.log("Loaded!");
-// });
-// console.log("After!");
+console.log("Before!");
+window.addEventListener("DOMContentLoaded", (event) => {
+    console.log("Loaded!");
+});
+console.log("After!");
 
 // addEventListener(eventName, eventHandler)
 const firstBtn = document.querySelector("button");
